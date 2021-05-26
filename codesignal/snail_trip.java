@@ -1,5 +1,6 @@
 // https://app.codesignal.com/challenge/TQk88Gc6BTnzevwMt
-function snail_trip(H, d, n) {
-
+int snail_trip(float H, int d, int n) {
+  return (int)((H - n) / (d - n) + .9);
 }
 
+}

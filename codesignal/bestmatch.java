@@ -1,5 +1,9 @@
 // https://app.codesignal.com/challenge/XjYS83B6vYMEvuBGq
-function BestMAtch(N, AL_AHLY_Goals, Zamalek_Goals) {
-
+int p, m = 9, t;
+int BestMAtch(int N, int[] a, int[] z) {
+  for (; --N > 0; )
+    for (t = a[N] - z[N]; t < m; m = t)
+      p = N;
+  return p;
 }
 
