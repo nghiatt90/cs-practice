@@ -15,6 +15,9 @@ class TreeNode(object):
         self.left = None
         self.right = None
 
+    def __repr__(self):
+        return str(self.val)
+
 
 class Converter:
     def __init__(self, dtype=int, null_str='null', null_value=None):
