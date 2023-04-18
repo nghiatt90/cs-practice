@@ -11,7 +11,7 @@ __date__ = "2021/11/04"
 from collections import Counter
 from typing import Optional
 
-from leetcode.tree import TreeNode, build_from_string
+from leetcode.datastructure import TreeNode
 
 
 class Solution:
@@ -35,4 +35,4 @@ class Solution:
         return ans
 
 
-assert Solution().pathSum(build_from_string("[5,4,8,11,null,13,4,7,2,null,null,5,1]"), 22) == 3
+assert Solution().pathSum(TreeNode.build_from_string("[5,4,8,11,null,13,4,7,2,null,null,5,1]"), 22) == 3

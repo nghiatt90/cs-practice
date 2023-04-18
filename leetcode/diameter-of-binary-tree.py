@@ -10,7 +10,7 @@ __date__ = "2021/11/04"
 
 from typing import Optional
 
-from leetcode.tree import TreeNode, build_from_string
+from leetcode.datastructure import TreeNode
 
 
 class Solution:
@@ -32,4 +32,4 @@ class Solution:
         return ans
 
 
-assert Solution().diameterOfBinaryTree(build_from_string("[1,2,3,4,5]")) == 3
+assert Solution().diameterOfBinaryTree(TreeNode.build_from_string("[1,2,3,4,5]")) == 3

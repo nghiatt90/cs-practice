@@ -10,7 +10,7 @@ __date__ = "2021/11/04"
 
 # Definition for a binary tree node.
 
-from leetcode.tree import TreeNode
+from leetcode.datastructure import TreeNode
 
 
 class Codec:

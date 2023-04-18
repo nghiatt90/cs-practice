@@ -10,7 +10,7 @@ __date__ = "2021/11/05"
 
 from typing import Optional
 
-from leetcode.tree import TreeNode
+from leetcode.datastructure import TreeNode
 
 
 class Solution:
